@@ -15,7 +15,6 @@
 
 const should = require('should');
 const request = require('supertest');
-const sinon = require('sinon');
 const {server} = require('../index');
 let testId;
 describe('Test', function() {
@@ -49,6 +48,5 @@ describe('Test', function() {
           done();
         });
     });
-
   });
 });
